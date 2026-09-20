@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" role="img" aria-label="Replace with campus photo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5AA9E6"/>
+      <stop offset="100%" stop-color="#0E4F91"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#g)"/>
+  <circle cx="738" cy="117" r="58.5" fill="#F5BE2E" opacity="0.65"/>
+  <g fill="#ffffff" opacity="0.14">
+    <rect x="72" y="292.5" width="324" height="292.5" rx="10"/>
+    <rect x="450" y="214.5" width="378" height="370.49999999999994" rx="10"/>
+  </g>
+  <g fill="#ffffff" opacity="0.25">
+    <rect x="108" y="338" width="63.00000000000001" height="58.5" rx="4"/>
+    <rect x="207" y="338" width="63.00000000000001" height="58.5" rx="4"/>
+    <rect x="486.00000000000006" y="266.5" width="72" height="65" rx="4"/>
+    <rect x="594" y="266.5" width="72" height="65" rx="4"/>
+    <rect x="702" y="266.5" width="72" height="65" rx="4"/>
+  </g>
+  <path d="M0 585 L900 585 L900 650 L0 650 Z" fill="#0B3B6B" opacity="0.25"/>
+  <text x="450" y="627.25" font-family="Poppins, Segoe UI, sans-serif" font-size="23"
+        fill="#ffffff" opacity="0.85" text-anchor="middle">Replace with campus photo</text>
+</svg>

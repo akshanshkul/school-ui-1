@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600" role="img" aria-label="Replace with wide campus photo">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E4F91"/>
+      <stop offset="100%" stop-color="#07233F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="600" fill="url(#g)"/>
+  
+  <g fill="#ffffff" opacity="0.14">
+    <rect x="128" y="270" width="576" height="270" rx="10"/>
+    <rect x="800" y="198" width="672" height="341.99999999999994" rx="10"/>
+  </g>
+  <g fill="#ffffff" opacity="0.25">
+    <rect x="192" y="312" width="112.00000000000001" height="54" rx="4"/>
+    <rect x="368" y="312" width="112.00000000000001" height="54" rx="4"/>
+    <rect x="864" y="245.99999999999997" width="128" height="60" rx="4"/>
+    <rect x="1056" y="245.99999999999997" width="128" height="60" rx="4"/>
+    <rect x="1248" y="245.99999999999997" width="128" height="60" rx="4"/>
+  </g>
+  <path d="M0 540 L1600 540 L1600 600 L0 600 Z" fill="#0B3B6B" opacity="0.25"/>
+  <text x="800" y="579" font-family="Poppins, Segoe UI, sans-serif" font-size="21"
+        fill="#ffffff" opacity="0.85" text-anchor="middle">Replace with wide campus photo</text>
+</svg>

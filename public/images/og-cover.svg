@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="The Brahmanand Academy - Kaul, Kaithal">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E4F91"/>
+      <stop offset="100%" stop-color="#07233F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <circle cx="983.9999999999999" cy="113.39999999999999" r="56.699999999999996" fill="#F5BE2E" opacity="0.65"/>
+  <g fill="#ffffff" opacity="0.14">
+    <rect x="96" y="283.5" width="432" height="283.5" rx="10"/>
+    <rect x="600" y="207.9" width="504" height="359.09999999999997" rx="10"/>
+  </g>
+  <g fill="#ffffff" opacity="0.25">
+    <rect x="144" y="327.6" width="84.00000000000001" height="56.699999999999996" rx="4"/>
+    <rect x="276" y="327.6" width="84.00000000000001" height="56.699999999999996" rx="4"/>
+    <rect x="648" y="258.3" width="96" height="63" rx="4"/>
+    <rect x="792" y="258.3" width="96" height="63" rx="4"/>
+    <rect x="936" y="258.3" width="96" height="63" rx="4"/>
+  </g>
+  <path d="M0 567 L1200 567 L1200 630 L0 630 Z" fill="#0B3B6B" opacity="0.25"/>
+  <text x="600" y="607.9499999999999" font-family="Poppins, Segoe UI, sans-serif" font-size="22"
+        fill="#ffffff" opacity="0.85" text-anchor="middle">The Brahmanand Academy - Kaul, Kaithal</text>
+</svg>
