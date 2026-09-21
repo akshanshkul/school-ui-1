@@ -2,14 +2,23 @@
 // Single source of truth for all site content.
 // Edit this file to change text, contact details, menus, facilities, etc.
 // ============================================================================
-
+import {
+  BookOpen,
+  CalendarDays,
+  Clock3,
+  FileText,
+  GraduationCap,
+  HeartHandshake,
+  ShieldCheck,
+  Users,
+} from 'lucide-react';
 export const site = {
   name: 'The Brahmanand Academy',
   shortName: 'Brahmanand Academy',
   tagline: 'Learn | Grow | Lead',
   motto: 'More than a School, A Place to Belong',
   // Change this to your live domain before deploying (canonical URLs, sitemap, OG tags).
-  url: 'https://www.thebrahmanandacademy.com',
+  url: 'https://thebrahmanand.com',
   affiliation: 'Affiliated to C.B.S.E., Code - 532002 (NUR - 12th)',
   affiliationCode: '532002',
   established: '2019',
@@ -29,9 +38,9 @@ export const site = {
   officeHours: 'Monday - Saturday, 8:00 AM to 3:00 PM',
   session: '2024-25',
   social: {
-    facebook: 'https://facebook.com/',
-    instagram: 'https://instagram.com/',
-    youtube: 'https://youtube.com/',
+    facebook: 'https://www.facebook.com/bnaadmissions/',
+    instagram: 'https://www.instagram.com/thebrahmanand/',
+    youtube: 'https://www.youtube.com/@thebrahmanandacademy',
   },
 };
 
@@ -39,16 +48,15 @@ export const mainNav = [
   { label: 'Home', href: '/' },
   { label: 'About Us', href: '/about/' },
   { label: 'Academics', href: '/academics/' },
-  { label: 'Admission', href: '/admission/' },
   { label: 'Facilities', href: '/facilities/' },
   { label: 'Gallery', href: '/gallery/' },
+  { label: 'Our Team', href: '/our-team/' },
   { label: 'Parent Corner', href: '/parent-corner/' },
-  { label: 'Contact Us', href: '/contact/' },
 ];
 
 export const topNav = [
-  { label: 'News & Updates', href: '/parent-corner/#news' },
-  { label: 'Mandatory Disclosure', href: '/parent-corner/#disclosure' },
+  { label: 'News & Updates', href: '/news-updates' },
+  { label: 'Mandatory Disclosure', href: '/mandatory-disclosure' },
   { label: 'Contact Us', href: '/contact/' },
 ];
 
@@ -236,19 +244,282 @@ export const galleryItems = [
 ];
 
 export const notices = [
-  { date: '2024-04-01', title: 'Admissions open for session 2024-25 (Nursery to XII)', tag: 'Admission' },
-  { date: '2024-03-20', title: 'Annual result declaration and Parent-Teacher Meeting', tag: 'Academics' },
-  { date: '2024-02-14', title: 'Inter-house Science Exhibition - register with class teachers', tag: 'Event' },
-  { date: '2024-01-10', title: 'Revised winter school timings effective from 15 January', tag: 'Notice' },
+  {
+    date: '2024-04-01',
+    title: 'Admissions open for session 2024-25 (Nursery to XII)',
+    tag: 'Admission',
+  },
+  {
+    date: '2024-03-20',
+    title: 'Annual result declaration and Parent-Teacher Meeting',
+    tag: 'Academics',
+  },
+  {
+    date: '2024-02-14',
+    title: 'Inter-house Science Exhibition - register with class teachers',
+    tag: 'Event',
+  },
+  {
+    date: '2024-01-10',
+    title: 'Revised winter school timings effective from 15 January',
+    tag: 'Notice',
+  },
 ];
 
+
 export const disclosures = [
-  { label: 'Affiliation Certificate (CBSE)', file: '#' },
-  { label: 'Recognition Certificate', file: '#' },
-  { label: 'Building Safety Certificate', file: '#' },
-  { label: 'Fire Safety Certificate', file: '#' },
-  { label: 'Water & Sanitation Certificate', file: '#' },
-  { label: 'Fee Structure 2024-25', file: '#' },
-  { label: 'School Managing Committee', file: '#' },
-  { label: 'Staff Details (PTR)', file: '#' },
+  // { label: 'Affiliation Certificate (CBSE)', file: '#' },
+  { label: 'Land & Owner NOC', file: 'assets/static/documents/land-and-owner-noc.pdf' },
+  // { label: 'Recognition Certificate', file: '#' },
+  // { label: 'Building Safety Certificate', file: 'fire-and-safety.pdf' },
+  { label: 'Fire Safety Certificate', file: 'assets/static/documents/fire-and-safety.pdf' },
+  { label: 'Water & Sanitation Certificate', file: 'assets/static/documents/bacteriology.pdf' },
+  // { label: 'Fee Structure 2024-25', file: '#' },
+  // { label: 'School Managing Committee', file: '#' },
+  // { label: 'Staff Details (PTR)', file: '#' },
+];
+
+export const resources = [
+  {
+    icon: CalendarDays,
+    title: 'Academic Calendar',
+    text: 'Keep track of important school dates, examinations, holidays and activities.',
+    href: '#calendar',
+  },
+  {
+    icon: FileText,
+    title: 'Parent Handbook',
+    text: 'School policies, routines, expectations and useful information for parents.',
+    href: '#handbook',
+  },
+  {
+    icon: BookOpen,
+    title: 'Academic Information',
+    text: 'Find information about curriculum, assessments, homework and learning support.',
+    href: '#academics',
+  },
+  {
+    icon: GraduationCap,
+    title: 'Examination & Assessment',
+    text: 'Understand assessment cycles, examination schedules and report card information.',
+    href: '#assessment',
+  },
+  {
+    icon: Users,
+    title: 'Parent-Teacher Meetings',
+    text: 'Learn about PTMs and how parents can stay connected with teachers.',
+    href: '#ptm',
+  },
+  {
+    icon: HeartHandshake,
+    title: 'Student Wellbeing',
+    text: 'Guidance on student care, discipline, safety and positive development.',
+    href: '#wellbeing',
+  },
+];
+
+export const importantInfo = [
+  {
+    icon: Clock3,
+    title: 'School Timings',
+    text: `${site.officeHours}. Winter and summer schedules are announced by the school.`,
+  },
+  {
+    icon: ShieldCheck,
+    title: 'Safety & Security',
+    text: 'Parents are requested to follow school entry, visitor and student pickup procedures.',
+  },
+  {
+    icon: CalendarDays,
+    title: 'Leave & Attendance',
+    text: 'Regular attendance is important. Leave should be communicated to the school in advance.',
+  },
+];
+
+export const parentFaqs = [
+  {
+    question: 'How can I communicate with my child’s teacher?',
+    answer:
+      'Parents may use the communication channel shared by the class teacher or contact the school office for assistance.',
+  },
+  {
+    question: 'When are Parent-Teacher Meetings conducted?',
+    answer:
+      'PTMs are generally conducted after assessment cycles. The school communicates the schedule to parents in advance.',
+  },
+  {
+    question: 'How are important school announcements shared?',
+    answer:
+      'Important information is communicated through the school’s official parent communication channels.',
+  },
+  {
+    question: 'What should I do if my child is absent?',
+    answer:
+      'Parents should inform the school/class teacher about the absence and provide the required leave information.',
+  },
+];
+
+
+export const staff = [
+  {
+    name: 'Shushila Sharma',
+    role: 'PGT',
+    subject: 'Hindi',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Vishal',
+    role: 'Karate Coach',
+    subject: 'Sports & Fitness',
+    type: 'external',
+    image: '',
+  },
+  {
+    name: 'Suman',
+    role: 'Mother Teacher',
+    subject: 'Primary School',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Shivani',
+    role: 'TGT',
+    subject: 'Teaching Faculty',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Seema',
+    role: 'Mother Teacher',
+    subject: 'Primary School',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Parul',
+    role: 'PRT',
+    subject: 'Hindi',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Monika',
+    role: 'Mother Teacher',
+    subject: 'Primary School',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Madhu',
+    role: 'Mother Teacher',
+    subject: 'Primary School',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Anil',
+    role: 'Operator',
+    subject: 'Computer',
+    type: 'management',
+    image: '',
+  },
+  {
+    name: 'Geeta',
+    role: 'Mother Teacher',
+    subject: 'Primary School',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Sourabh',
+    role: 'PGT',
+    subject: 'Commerce',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Shalu',
+    role: 'PGT',
+    subject: 'Political Science',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Neha',
+    role: 'PRT',
+    subject: 'Computer',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Mahak',
+    role: 'Receptionist',
+    subject: 'Administration',
+    type: 'management',
+    image: '',
+  },
+  {
+    name: 'Ritu Sharma',
+    role: 'TGT',
+    subject: 'Hindi',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Bhavna Sharma',
+    role: 'TGT',
+    subject: 'Social Science',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Rajni',
+    role: 'TGT',
+    subject: 'English',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Pinki',
+    role: 'TGT',
+    subject: 'Science',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Kamaljeet Kaur',
+    role: 'TGT',
+    subject: 'Punjabi',
+    type: 'academic',
+    image: '',
+  },
+  {
+    name: 'Jogendra',
+    role: 'PGT',
+    subject: 'Maths',
+    type: 'academic',
+    image: '',
+  },
+];
+
+export const teamHighlights = [
+  {
+    value: '20+',
+    title: 'Teaching & Support Staff',
+    icon: 'graduation',
+    color: 'navy',
+  },
+  {
+    value: 'Diverse',
+    title: 'Academic Specialisations',
+    icon: 'book',
+    color: 'gold',
+  },
+  {
+    value: 'One Team',
+    title: 'Focused on Student Growth',
+    icon: 'heart',
+    color: 'navy',
+  },
 ];

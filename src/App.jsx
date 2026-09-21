@@ -8,6 +8,9 @@ import Facilities from '@/pages/Facilities';
 import Gallery from '@/pages/Gallery';
 import ParentCorner from '@/pages/ParentCorner';
 import Contact from '@/pages/Contact';
+import NewsUpdate from '@/pages/NewsUpdate';
+import MandatoryDisclosure from '@/pages/MandatoryDisclosure';
+import OurTeam from '@/pages/Team';
 import NotFound from '@/pages/NotFound';
 
 export default function App() {
@@ -21,6 +24,9 @@ export default function App() {
         <Route path="/facilities" element={<Facilities />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/parent-corner" element={<ParentCorner />} />
+        <Route path="/news-updates" element={<NewsUpdate />} />
+        <Route path="/mandatory-disclosure" element={<MandatoryDisclosure />} />
+        <Route path="/our-team" element={<OurTeam />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Route>
