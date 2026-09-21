@@ -6,6 +6,7 @@ import FacilitiesStrip from '@/components/home/FacilitiesStrip';
 import StatsBand from '@/components/home/StatsBand';
 import WhyChoose from '@/components/home/WhyChoose';
 import AdmissionCta from '@/components/AdmissionCta';
+import StaffSection from '@/components/StaffSection';
 
 export default function Home() {
   return (
@@ -23,6 +24,9 @@ export default function Home() {
       <FacilitiesStrip />
       <StatsBand />
       <WhyChoose />
+      <StaffSection
+        limit={4}
+      />
       <AdmissionCta />
     </>
   );
