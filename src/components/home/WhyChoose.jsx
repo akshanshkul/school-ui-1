@@ -30,7 +30,7 @@ export default function WhyChoose() {
         </blockquote>
 
         <Photo
-          src="/images/campus-building.svg"
+          src="/images/schoo-student.png"
           alt="The Brahmanand Academy school building surrounded by greenery"
           width={800}
           height={600}

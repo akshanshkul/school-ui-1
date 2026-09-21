@@ -32,7 +32,7 @@ export default function Welcome() {
         {/* Quote card overlapping the campus photo */}
         <div className="relative">
           <Photo
-            src="/images/campus-interior.svg"
+            src="/images/school-infra.png"
             alt="Corridor inside The Brahmanand Academy campus"
             width={800}
             height={600}

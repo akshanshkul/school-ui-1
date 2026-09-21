@@ -45,7 +45,7 @@ export default function Hero() {
         {/* Visual */}
         <div className="relative lg:h-[560px]">
           <Photo
-            src="/images/hero-students.svg"
+            src="/images/student-image.png"
             alt="Students of The Brahmanand Academy outside the school building in Kaul, Kaithal"
             priority
             width={900}
@@ -53,7 +53,7 @@ export default function Hero() {
             className="h-[300px] rounded-2xl shadow-card sm:h-[400px] lg:h-full lg:rounded-none lg:rounded-bl-[3rem]"
           />
 
-          <p className="script-accent absolute bottom-4 right-4 max-w-[190px] text-right text-lg text-navy-700 drop-shadow-sm sm:text-xl lg:bottom-16 lg:text-2xl">
+          <p className="script-accent absolute bottom-4 right-4 max-w-[190px] text-right text-lg text-gold drop-shadow-sm sm:text-xl lg:bottom-16 lg:text-2xl">
             {site.motto}
             <span aria-hidden="true" className="mt-1 block h-[3px] w-24 rounded-full bg-gold" />
           </p>

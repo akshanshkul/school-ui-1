@@ -59,7 +59,7 @@ export default function Facilities() {
       <section className="section bg-navy-50">
         <div className="container grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
           <Photo
-            src="/images/campus-interior.svg"
+            src="/images/schoo-student.png"
             alt="Safe and well maintained corridors at The Brahmanand Academy"
             width={900}
             height={650}

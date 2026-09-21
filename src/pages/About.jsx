@@ -51,7 +51,7 @@ export default function About() {
       <section className="section">
         <div className="container grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
           <Photo
-            src="/images/campus-building.svg"
+            src="/images/school-infra.png"
             alt="Front view of The Brahmanand Academy campus in Kaul, Kaithal"
             width={900}
             height={650}
