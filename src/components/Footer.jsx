@@ -95,7 +95,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} {site.name}. All rights reserved.
           </p>
           <p>
-            Site designed by <a href="https://www.gradox.in" target="_blank" rel="noreferrer" className="font-semibold text-gold">Gradox</a>
+            Site designed by <a href="https://www.gradox.in" target="_blank" rel="noreferrer" className="font-semibold text-gold">Gradox [School Management Software]</a>
           </p>
           <p>{site.affiliation}</p>
         </div>
