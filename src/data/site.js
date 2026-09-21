@@ -532,3 +532,184 @@ export const teamHighlights = [
     color: 'navy',
   },
 ];
+
+
+// ============================================================================
+// CBSE Mandatory Disclosure - Additional Information
+// Only information that is not already available elsewhere in site.js.
+// ============================================================================
+
+export const mandatoryDisclosure = {
+  documents: [
+    {
+      label:
+        'Copies of Affiliation / Upgradation Letter and Recent Extension of Affiliation',
+      file: 'assets/static/documents/affiliation-certificate.jpg',
+    },
+    {
+      label:
+        'Copies of Societies / Trust / Company Registration / Renewal Certificate',
+      file: 'assets/static/documents/trust-registration.pdf',
+    },
+    {
+      label: 'Copy of No Objection Certificate (NOC), if applicable',
+      file: 'assets/static/documents/school-noc.jpg',
+    },
+    {
+      label: 'Valid Building Safety Certificate',
+      file: 'assets/static/documents/building-safety.pdf',
+    },
+    {
+      label: 'Valid Fire Safety Certificate',
+      file: 'assets/static/documents/fire-and-safety.pdf',
+    },
+    {
+      label: 'DEO Certificate / Self Certification by School',
+      file: 'assets/static/documents/self-certificate.pdf',
+    },
+    {
+      label: 'Valid Water, Health and Sanitation Certificates',
+      file: 'assets/static/documents/water.jpeg',
+    },
+    {
+      label:
+        'Recognition Certificate under RTE Act, 2009 and its Renewal, if applicable',
+      file: null,
+    },
+  ],
+
+  academicDocuments: [
+    {
+      label: 'Fee Structure of the School',
+      file: null,
+    },
+    {
+      label: 'Annual Academic Calendar',
+      file: null,
+    },
+    {
+      label: 'List of School Management Committee (SMC)',
+      file: null,
+    },
+    {
+      label: 'List of Parent Teacher Association (PTA) Members',
+      file: null,
+    },
+    {
+      label: 'Last Three-Year Result of Board Examination',
+      file: null,
+    },
+  ],
+
+  results: {
+    classX: [
+      {
+        year: '2022',
+        registered: 155,
+        passed: 155,
+        percentage: '100%',
+      },
+      {
+        year: '2023',
+        registered: 138,
+        passed: 137,
+        percentage: '98.5%',
+      },
+      {
+        year: '2024',
+        registered: 156,
+        passed: 154,
+        percentage: '98.7%',
+      },
+    ],
+
+    classXII: [
+      {
+        year: '2022',
+        registered: 218,
+        passed: 203,
+        percentage: '93.12%',
+      },
+      {
+        year: '2023',
+        registered: 204,
+        passed: 176,
+        percentage: '86.29%',
+      },
+      {
+        year: '2024',
+        registered: 215,
+        passed: 179,
+        percentage: '83.25%',
+      },
+    ],
+  },
+
+  staffSummary: {
+    totalTeachers: 51,
+
+    categories: [
+      { label: 'PGT', count: 13 },
+      { label: 'TGT', count: 20 },
+      { label: 'PRT', count: 13 },
+      { label: 'Nursery Teacher', count: 2 },
+      { label: 'Librarian', count: 1 },
+      { label: 'PET', count: 2 },
+    ],
+
+    sectionRatio: [
+      { label: 'Senior', value: '1:1.5' },
+      { label: 'Junior', value: '1:1' },
+    ],
+
+    specialEducator: null,
+    counsellorWellnessTeacher: null,
+  },
+
+  infrastructure: {
+    campusArea: '5867 sq. mtr.',
+
+    rooms: {
+      total: 53,
+      below400Sqft: 27,
+      between400And500Sqft: 20,
+      above500Sqft: 6,
+    },
+
+    laboratories: [
+      {
+        name: 'Computer Lab',
+        area: '761.4 sq. mtr.',
+      },
+      {
+        name: 'Physics Lab',
+        area: '851.54 sq. mtr.',
+      },
+      {
+        name: 'Chemistry Lab',
+        area: '867.3 sq. mtr.',
+      },
+      {
+        name: 'Biology Lab',
+        area: '855.36 sq. mtr.',
+      },
+      {
+        name: 'Maths Lab',
+        area: '390.32 sq. mtr.',
+      },
+    ],
+
+    internetFacility: true,
+
+    toilets: {
+      girls: 18,
+      boys: 18,
+      femaleStaff: 4,
+      maleStaff: 1,
+    },
+  },
+
+  annualReport: null,
+
+  inspectionVideo: null,
+};
