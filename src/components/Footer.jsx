@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Mail, MapPin, Phone, Youtube } from 'lucide-react';
 import Logo from './Logo';
-import { mainNav,topNav, site } from '@/data/site';
+import { mainNav, topNav, site } from '@/data/site';
 
 const quickLinks = mainNav.filter((item) => item.href !== '/');
 const quickLinks2 = topNav.filter((item) => item.href !== '/');
@@ -46,17 +46,6 @@ export default function Footer() {
             ))}
           </ul>
         </nav>
-
-        <div>
-          <h2 className="mb-4 text-base font-semibold text-white">School Info</h2>
-          <ul className="space-y-2.5 text-sm">
-            <li>CBSE Affiliation No. {site.affiliationCode}</li>
-            <li>Classes: Nursery to XII</li>
-            <li>Established: {site.established}</li>
-            <li>Session: {site.session}</li>
-            <li>{site.officeHours}</li>
-          </ul>
-        </div>
 
         <address className="not-italic">
           <h2 className="mb-4 text-base font-semibold text-white">Reach Us</h2>
@@ -104,6 +93,9 @@ export default function Footer() {
         <div className="container flex flex-col items-center justify-between gap-2 py-5 text-xs text-slate-400 md:flex-row">
           <p>
             &copy; {new Date().getFullYear()} {site.name}. All rights reserved.
+          </p>
+          <p>
+            Site designed by <a href="https://www.gradox.in" target="_blank" rel="noreferrer" className="font-semibold text-gold">Gradox</a>
           </p>
           <p>{site.affiliation}</p>
         </div>
