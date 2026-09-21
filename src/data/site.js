@@ -230,18 +230,26 @@ export const faqs = [
   },
 ];
 
-export const galleryCategories = ['All', 'Campus', 'Classrooms', 'Sports', 'Events', 'Activities'];
+// export const galleryCategories = ['All', 'Campus', 'Classrooms', 'Sports', 'Events', 'Activities'];
+export const galleryCategories = [];
+
 
 export const galleryItems = [
-  { title: 'School Building', category: 'Campus', image: '/images/gallery-1.svg' },
-  { title: 'Smart Classroom', category: 'Classrooms', image: '/images/gallery-2.svg' },
-  { title: 'Annual Sports Day', category: 'Sports', image: '/images/gallery-3.svg' },
-  { title: 'Independence Day', category: 'Events', image: '/images/gallery-4.svg' },
-  { title: 'Science Exhibition', category: 'Activities', image: '/images/gallery-5.svg' },
-  { title: 'Computer Lab', category: 'Classrooms', image: '/images/gallery-6.svg' },
-  { title: 'Playground', category: 'Campus', image: '/images/gallery-7.svg' },
-  { title: 'Cultural Programme', category: 'Events', image: '/images/gallery-8.svg' },
-  { title: 'Art & Craft Workshop', category: 'Activities', image: '/images/gallery-9.svg' },
+  // { title: 'School Building', category: 'Campus', image: '/images/gallery-1.svg' },
+  // { title: 'Smart Classroom', category: 'Classrooms', image: '/images/gallery-2.svg' },
+  // { title: 'Annual Sports Day', category: 'Sports', image: '/images/gallery-3.svg' },
+  // { title: 'Independence Day', category: 'Events', image: '/images/gallery-4.svg' },
+  // { title: 'Science Exhibition', category: 'Activities', image: '/images/gallery-5.svg' },
+  // { title: 'Computer Lab', category: 'Classrooms', image: '/images/gallery-6.svg' },
+  // { title: 'Playground', category: 'Campus', image: '/images/gallery-7.svg' },
+  // { title: 'Cultural Programme', category: 'Events', image: '/images/gallery-8.svg' },
+  // { title: 'Art & Craft Workshop', category: 'Activities', image: '/images/gallery-9.svg' },
+  { title: 'Yoga', category: 'Events', image: '/assets/static/images/yoga.jpeg' },
+  { title: 'Janmastami', category: 'Events', image: '/assets/static/images/janmashtami-hall.jpeg' },
+  { title: 'Janmastami', category: 'Events', image: '/assets/static/images/janmastmi-stage.jpeg' },
+  { title: 'Janmastami Decoration', category: 'Events', image: '/assets/static/images/janmashtami.jpeg' },
+  { title: 'Think Tank', category: 'Events', image: '/assets/static/images/think.jpeg' },
+  { title: 'Event', category: 'Events', image: '/assets/static/images/event.jpeg' },
 ];
 
 export const notices = [
