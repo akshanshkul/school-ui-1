@@ -51,6 +51,7 @@ export const mainNav = [
   { label: 'Facilities', href: '/facilities/' },
   { label: 'Gallery', href: '/gallery/' },
   { label: 'Our Team', href: '/our-team/' },
+  { label: 'Mandatory Disclosure', href: '/mandatory-disclosure' },
   { label: 'Parent Corner', href: '/parent-corner/' },
 ];
 
@@ -273,7 +274,7 @@ export const disclosures = [
   // { label: 'Recognition Certificate', file: '#' },
   // { label: 'Building Safety Certificate', file: 'fire-and-safety.pdf' },
   { label: 'Fire Safety Certificate', file: 'assets/static/documents/fire-and-safety.pdf' },
-  { label: 'Water & Sanitation Certificate', file: 'assets/static/documents/bacteriology.pdf' },
+  { label: 'Water & Sanitation Certificate', file: 'assets/static/documents/water.jpeg' },
   // { label: 'Fee Structure 2024-25', file: '#' },
   // { label: 'School Managing Committee', file: '#' },
   // { label: 'Staff Details (PTR)', file: '#' },

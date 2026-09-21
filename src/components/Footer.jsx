@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
 import { Facebook, Instagram, Mail, MapPin, Phone, Youtube } from 'lucide-react';
 import Logo from './Logo';
-import { mainNav, site } from '@/data/site';
+import { mainNav,topNav, site } from '@/data/site';
 
 const quickLinks = mainNav.filter((item) => item.href !== '/');
-
+const quickLinks2 = topNav.filter((item) => item.href !== '/');
 export default function Footer() {
   return (
     <footer className="bg-navy-800 text-slate-300">
@@ -24,6 +24,20 @@ export default function Footer() {
           </h2>
           <ul className="space-y-2.5 text-sm">
             {quickLinks.map((item) => (
+              <li key={item.href}>
+                <Link to={item.href} className="transition hover:text-gold">
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <nav aria-labelledby="footer-links">
+          <h2 id="footer-links" className="mb-4 text-base font-semibold text-white">
+            Important Links
+          </h2>
+          <ul className="space-y-2.5 text-sm">
+            {quickLinks2.map((item) => (
               <li key={item.href}>
                 <Link to={item.href} className="transition hover:text-gold">
                   {item.label}
