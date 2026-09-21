@@ -97,7 +97,7 @@ function ResultTable({ title, results }) {
             </div>
 
             <div className="overflow-x-auto">
-                <table className="w-full min-w-[550px] text-left text-sm">
+                <table className="w-full min-w-[500px] text-left text-sm">
                     <thead className="bg-slate-50">
                         <tr>
                             <th className="px-5 py-3 font-semibold text-slate-700">
